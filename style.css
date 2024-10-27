@@ -1,0 +1,60 @@
+:root {
+    --bg-color: #222831;
+    --primary-color: #DDDDDD;
+    --secondary-color: #F05454;
+    --font: "Nunito Sans", sans-serif;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    font-family: var(--font);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--secondary-color);
+    text-align: center;
+    padding: 1rem;
+    color: white;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+main {
+    padding: 2rem;
+}
+
+.graficos-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.graficos-container {
+    margin: 2rem 0;
+    width: 80%;
+    padding: 1rem;
+    border: 1px solid var(--primary-color);
+    background-color: var(--bg-color);
+}
+
+h2 {
+    text-align: center;
+    color: var(--secondary-color);
+    font-size: 1.8rem;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
